@@ -6,7 +6,7 @@ function db_connect()
 
   date_default_timezone_set("Asia/Calcutta");
 
-  $link = mysql_connect("localhost", "root", "")
+  $link = mysql_connect("localhost", "root", "")       //change the username and password according to your's
             or die('Could not connect: ' . mysql_error());
   mysql_select_db("db") or die('Could not select database');
   return true;
