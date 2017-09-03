@@ -1,0 +1,6 @@
+1. This program is SUCCESFULLY tested in XAMPP server and running very well.
+2. Create the database and table before using it.
+3. create table command in MySQL is
+    create table chat( id bigint AUTO_INCREMENT,username varchar(20), 
+    chatdate datetime,msg varchar(500), primary key(id));
+4. For a better experrience you can use different browser and more than one window of the same browser to create more user.
